@@ -44,20 +44,35 @@ h3{
     flex-direction: column;
     justify-content: center;
     width: 300px;
-    margin: 42px;
+    margin: 36px;
+    align-content: space-between;
 }
 .payment{
     background-color: darkblue;
     width: 100%;
     padding:10px;
     border-radius: 10px;
+    color: white;
+    
     
 }
 .cancel{
-    background-color: darkred;
+    /* background-color: darkred; */
     padding: 10px;
     border-radius: 10px;
     display: flex;
     justify-content: center;
+    opacity: 70.4%;
+    font-weight: 700;
+    margin: 20px;
+    border-radius: 10%;
+    /* width: 87%; */
 }
+p{
+    font-weight: 500;
+}
+#btn2{
+    
+    display:flex;
+    justify-content: center;
 }
